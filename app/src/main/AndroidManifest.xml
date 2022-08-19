@@ -14,8 +14,35 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".elboweach"
+            android:exported="false" />
+        <activity
+            android:name=".wrist"
+            android:exported="false" />
+        <activity
+            android:name=".shoulder"
+            android:exported="false" />
+        <activity
+            android:name=".hand"
+            android:exported="false" />
+        <activity
+            android:name=".humerus"
+            android:exported="false" />
+        <activity
+            android:name=".forearm"
+            android:exported="false" />
+        <activity
+            android:name=".finger"
+            android:exported="false" />
+        <activity
+            android:name=".elbow"
+            android:exported="false" />
+        <activity
+            android:name=".allbodyparts"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Splashscreen"
             android:exported="true">
@@ -25,8 +52,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
     </application>
 
 </manifest>
