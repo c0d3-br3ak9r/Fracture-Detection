@@ -1,35 +1,66 @@
+
+
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 public class elbow extends AppCompatActivity {
 
-    int[] newArray;
-
+    Button btn1,btn2,btn3,btn4,btn5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_elbow);
 
-        newArray = new int[]{
-                R.id.ex2, R.id.ex3, R.id.ex4, R.id.ex5, R.id.ex6
-        };
-    }
-
-    public void Imagebuttonclicked(View view) {
-        for (int i = 0; i < newArray.length; i++) {
-            if (view.getId() == newArray[i]) {
-                int value = i + 1;
-                Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(elbow.this, elboweach.class);
+        btn1=findViewById(R.id.btn1);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(elbow.this,elbow1.class);
                 startActivity(intent);
-
             }
-        }
+        });
+
+        btn2=findViewById(R.id.btn2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(elbow.this,elbow2.class);
+                startActivity(intent);
+            }
+        });
+
+        btn3=findViewById(R.id.btn3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(elbow.this,elbow3.class);
+                startActivity(intent);
+            }
+        });
+
+        btn4=findViewById(R.id.btn4);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(elbow.this,elbow4.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btn5=findViewById(R.id.btn5);
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(elbow.this,elbow5.class);
+                startActivity(intent);
+            }
+        });
     }
 }

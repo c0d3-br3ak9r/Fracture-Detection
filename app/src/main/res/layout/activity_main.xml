@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    tools:context=".forearm">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/purple_200"
+    android:id="@+id/imageToUpload"/>
 
-    <Button android:id="@+id/btnFindMe"
-        android:layout_width="300dp"
+    <Button
+        android:id="@+id/bUploadImaage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload image " />
+
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="500dp"
+        android:id="@+id/btnFindMe"
         android:text="check for other activities"
-        android:onClick="a"
-        ></Button>
 
+        ></Button>
+    
 </LinearLayout>
