@@ -8,7 +8,9 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp">
 
 
         <LinearLayout
@@ -24,19 +26,19 @@
 
 
             <Button
+                android:id="@+id/time"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                android:id="@+id/time"
                 android:layout_marginLeft="105dp"
-                android:text="01:00"
-                android:textSize="28sp"
+                android:background="@drawable/button_bg_round"
                 android:padding="15dp"
-                android:background="@drawable/button_bg_round"></Button>
+                android:text="01:00"
+                android:textSize="28sp"></Button>
 
             <Button
                 android:id="@+id/startbtn"
-                android:layout_width="wrap_content"
-                android:layout_height="42dp"
+                android:layout_width="154dp"
+                android:layout_height="77dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="20dp"
@@ -47,27 +49,10 @@
                 android:textStyle="bold"></Button>
 
 
-
         </LinearLayout>
 
 
-
-
-
-
-
-
-
-
     </ScrollView>
-
-
-
-
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

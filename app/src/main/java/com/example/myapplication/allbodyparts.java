@@ -34,7 +34,7 @@ public class allbodyparts extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(allbodyparts.this,finger.class);
+                Intent intent= new Intent(allbodyparts.this,elbow.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class allbodyparts extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(allbodyparts.this,forearm.class);
+                Intent intent= new Intent(allbodyparts.this,elbow.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class allbodyparts extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(allbodyparts.this,hand.class);
+                Intent intent= new Intent(allbodyparts.this,elbow.class);
                 startActivity(intent);
             }
         });
@@ -60,7 +60,7 @@ public class allbodyparts extends AppCompatActivity {
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(allbodyparts.this,humerus.class);
+                Intent intent= new Intent(allbodyparts.this,elbow.class);
                 startActivity(intent);
             }
         });
@@ -69,7 +69,7 @@ public class allbodyparts extends AppCompatActivity {
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(allbodyparts.this,shoulder.class);
+                Intent intent= new Intent(allbodyparts.this,elbow.class);
                 startActivity(intent);
             }
         });
@@ -78,7 +78,7 @@ public class allbodyparts extends AppCompatActivity {
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(allbodyparts.this,wrist.class);
+                Intent intent= new Intent(allbodyparts.this,elbow.class);
                 startActivity(intent);
             }
         });

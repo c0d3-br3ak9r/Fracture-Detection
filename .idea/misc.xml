@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_elbow.xml" value="0.25" />
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_elbow1.xml" value="0.2" />
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_finger.xml" value="0.25" />
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_forearm.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_hand.xml" value="0.25" />
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_humerus.xml" value="0.25" />
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_shoulder.xml" value="0.25" />
+        <entry key="..\:/Users/Subhash/Documents/GitHub/Fracture-Detection/app/src/main/res/layout/activity_wrist.xml" value="0.25" />
         <entry key="..\:/Users/subhi/Documents/GitHub/Fracture-Detection/app/src/main/res/drawable/bgcrop.xml" value="0.1235" />
         <entry key="..\:/Users/subhi/Documents/GitHub/Fracture-Detection/app/src/main/res/drawable/btn.xml" value="0.1235" />
         <entry key="..\:/Users/subhi/Documents/GitHub/Fracture-Detection/app/src/main/res/drawable/button_bg_round.xml" value="0.1465" />

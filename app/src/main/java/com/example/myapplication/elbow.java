@@ -30,7 +30,7 @@ public class elbow extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(elbow.this,elbow2.class);
+                Intent intent= new Intent(elbow.this,elbow1.class);
                 startActivity(intent);
             }
         });
@@ -39,7 +39,7 @@ public class elbow extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(elbow.this,elbow3.class);
+                Intent intent= new Intent(elbow.this,elbow1.class);
                 startActivity(intent);
             }
         });
@@ -48,7 +48,7 @@ public class elbow extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(elbow.this,elbow4.class);
+                Intent intent= new Intent(elbow.this,elbow1.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class elbow extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(elbow.this,elbow5.class);
+                Intent intent= new Intent(elbow.this,elbow1.class);
                 startActivity(intent);
             }
         });
